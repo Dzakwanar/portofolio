@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@0;1&family=Carter+One&display=swap");
+
+body {
+  background-color: white;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+main {
+  padding: 20px;
+  overflow: auto;
+}
+.awal-header {
+  font-family: "Carter One";
+  text-shadow: 4px 4px 3px rgb(0, 0, 0);
+  padding: 60px;
+  background-color: #0f3d3e;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.awal-header p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 10px;
+  text-shadow: none;
+}
+
+h2 {
+  color: #e2dcc8;
+  text-align: center;
+  font-family: "Carter One";
+}
+
+h2:hover {
+  color: #59ce8f;
+}
+.fiture-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  background-color: #30475e;
+  padding: 30px;
+  margin-top: 20px;
+  overflow: auto;
+}
+
+.card:hover {
+  background-color: black;
+}
+
+.gambar-about {
+  float: left;
+  margin: 20px;
+}
+
+.gambar-about {
+  width: 300px;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: #e2dcc8;
+  padding: 2px;
+  text-align: right;
+  position: sticky;
+  top: 0;
+}
+
+header {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+footer {
+  padding: 20px;
+  color: white;
+  background-color: #0f3d3e;
+  text-align: center;
+  font-weight: bold;
+}
+
+#content {
+  float: left;
+  width: 75%;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
