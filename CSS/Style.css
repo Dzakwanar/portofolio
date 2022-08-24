@@ -50,6 +50,7 @@ h2:hover {
   padding: 30px;
   margin-top: 20px;
   overflow: auto;
+   overflow-x: hidden;
 }
 
 .card:hover {
@@ -120,5 +121,9 @@ aside {
   aside {
     width: 100%;
     padding: 0;
+  }
+
+  .gambar-about{
+    width: 250px;
   }
 }
